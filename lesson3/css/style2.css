@@ -81,8 +81,6 @@ nav li{
 nav li {
     list-style-type: none;
     display: inline-block;
-    height: 40px;
-    width: 70px;
     background: yellow;
 }
 
