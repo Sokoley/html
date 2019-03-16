@@ -1,0 +1,25 @@
+.border {
+    border: 1px solid black;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-2 {
+    flex: 2;
+}
+
+.justify-content {
+    justify-content: space-around;
+    height: 300px;
+}

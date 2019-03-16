@@ -1,0 +1,72 @@
+p {
+    background: plum;
+}
+
+.flex-container1{
+    display: flex;
+    background: bisque;
+
+    /*justify-content: flex-start;*/
+    /*justify-content: flex-end;*/
+    /*justify-content: center;*/
+    /*justify-content: space-around;*/
+    justify-content: space-between;
+}
+
+.flex-container2 {
+    display: flex;
+    background: bisque;
+    justify-content: space-between;
+
+    /*align-items: stretch;*/
+    /*align-items: baseline;*/
+    /*align-items: flex-start;*/
+    /*align-items: flex-end;*/
+    align-items: center;
+}
+
+.flex-container3 {
+    display: flex;
+    background: bisque;
+
+    /*flex-direction: row;*/
+    flex-direction: row-reverse;
+    /*flex-direction: column;*/
+    /*flex-direction: column-reverse;*/
+}
+
+.flex-container4 {
+    display: flex;
+    background: bisque;
+
+    width: 250px;
+
+    /*flex-wrap: nowrap;*/
+    flex-wrap: wrap;
+    /*flex-wrap: wrap-reverse;*/
+
+
+    /*flex-flow: направление многострочность;*/
+    /*flex-flow: row wrap;*/
+}
+
+.flex-container5 {
+    display: flex;
+    background: bisque;
+    width: 250px;
+
+    /*align-content: stretch;*/
+    /*align-content: flex-start;*/
+    /*align-content: flex-end;*/
+    /*align-content: center;*/
+    /*align-content: space-around;*/
+    align-content: space-between;
+
+    height: 400px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+
+
